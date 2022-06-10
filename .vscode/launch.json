@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["C:\\Users\\Lenovo\\Desktop\\Semester 2\\Scripting Application\\Comp593-Lab2\\sales_data.csv"]
+            //"args": ["C:\\Users\\Lenovo\\Desktop\\Semester 2\\Scripting Application\\sales_data.csv"]
+            //"args": ["C:\\Users\\Lenovo\\Desktop\\Semester 2\\Scripting Application\\Comp593-Lab2"]
+
+
+        }
+    ]
+}
