@@ -1,7 +1,7 @@
 #{REQ-1}
-from multiprocessing import reduction
 from sys import argv, exit
 import os
+from datetime import date
 
 def sales_csv():
 
@@ -17,6 +17,14 @@ def sales_csv():
         print("No path found")
         exit("Exiting script")
 
+def get_dir(get_sales):
+
+    sales_dir = os.path.dirname(sales_csv)
+
+    tdate = date.today.isoformat()
+   
+    odir = os.path.join(sales_dir, 'Orders_ ' + tdate)
+
 get_sales = sales_csv()
-print(get_sales)
+order_dir = get_dir(get_sales)
 
